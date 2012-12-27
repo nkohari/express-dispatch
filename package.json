@@ -1,0 +1,19 @@
+{
+  "name": "express-dispatch",
+  "version": "0.0.1",
+  "description": "controllers and parameter binding for express",
+  "repositories": {
+    "type": "git",
+    "url": "http://github.com/nkohari/express-dispatch"
+  },
+  "dependencies": {
+    "coffee-script": "~1.4.0",
+    "express": "~3.0.5"
+  },
+  "devDependencies": {
+    "chai": "~1.4.2",
+    "mocha": "~1.7.4",
+    "supertest": "~0.5.1"
+  },
+  "engine": "node >= 0.8.x"
+}
