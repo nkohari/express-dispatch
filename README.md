@@ -1,6 +1,10 @@
 This is a simple library that adds controller classes and parameter binding to [express](http://expressjs.org/).
 It's really just a gimmick that I was tinkering with. I'm not sure if it's useful or even a remotely good idea.
 
+To install, just run `npm install express-dispatch`.
+
+## Example
+
 Instead of just binding to a function, as is normal with express, dispatch lets you bind to a class and function.
 
 Here's an example controller:
