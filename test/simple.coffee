@@ -20,7 +20,7 @@ describe 'a simple one-controller scenario', ->
 	dispatch.register(app, controllers, routeMap)
 
 	server = http.createServer(app)
-	before (done) -> server.listen(6998, done)
+	before (done) -> server.listen(9999, done)
 	after  (done) -> server.close(done)
 
 	describe 'a GET request with query string parameters', ->
