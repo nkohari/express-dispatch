@@ -28,7 +28,7 @@ express = require 'express'
 dispatch = require 'express-dispatch'
 
 controllers =
-  test: ExampleController
+  example: ExampleController
 
 routes =
   'get /greet': 'example.greet'
